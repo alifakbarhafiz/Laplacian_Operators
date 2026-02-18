@@ -1,0 +1,35 @@
+LapLacianOperators/
+├── data/
+│   └── meshes/                 [P0]  ← prepare meshes once, then forget
+│
+├── geometry/
+│   ├── adjacency.py            [P0]  ← FIRST real code (everything depends on this)
+│   ├── areas.py                [P1]  ← needed for cotangent + curvature
+│   ├── boundaries.py           [P1]  ← needed for boundary experiments
+│   └── curvature.py            [P4]  ← AFTER cotangent works
+│
+├── operators/
+│   ├── uniform.py              [P2]  ← first Laplacian (easy, sanity check)
+│   ├── graph.py                [P3]  ← second Laplacian
+│   └── cotangent.py            [P4]  ← hardest, do NOT rush
+│
+├── experiments/
+│   ├── smooth_mesh.py          [P2]  ← write early, then NEVER change
+│   └── run_all.py              [P6]  ← only after everything works
+│
+├── metrics/
+│   ├── volume.py               [P5]  ← first metric (simple, grounding)
+│   ├── curvature_metrics.py    [P5]  ← after curvature works
+│   └── boundary_metrics.py     [P5]  ← after boundaries work
+│
+├── visualization/
+│   ├── plots.py                [P6]  ← only when numbers exist
+│   ├── heatmaps.py             [P6]  ← insight visualization
+│   ├── gifs.py                 [P6]  ← gif
+│   └── all.py                  [P6]  ← final polish
+│
+├── figures/                    [P6]  ← outputs only
+│
+├── README.md                   [P0 → P6] ← write a little, update continuously
+├── requirements.txt            [P0]  ← lock environment early
+└── environment.yml             [optional]

@@ -1,15 +1,163 @@
-# Python virtual environment
-venv/
-
-# Python cache
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 *.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+*.egg-info
+.eggs/
+dist/
+build/
+develop-eggs/
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+*.ipynb_checkpoints/
 
-# OS junk
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# OS
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
 Thumbs.db
+ehthumbs.db
+Desktop.ini
 
-# Editor junk
+# Editors & IDEs
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Polyscope / ImGui (user-specific UI state)
+.polyscope.ini
+imgui.ini
+*.ini.bak
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+*.pem
+
+# Logs & temp
+*.log
+*.tmp
+*.temp
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Distribution / packaging
+*.whl
+pip-wheel-metadata/
+*.tar.gz
+*.zip
+!data/**/*.zip
+
+# Conda
+.conda/
+conda-meta/
+
+# Ruff / linters
+.ruff_cache/
+
+# uv
+.uv/
+
+# Pyright / Pylance / type checkers
+pyrightconfig.json
+.pyre/
+
+# Debug & core dumps
+*.pdb
+*.stackdump
+core
+core.*
+*.core
+
+# Sphinx / docs
+docs/_build/
+doc/_build/
+*.doctrees
+
+# Install / pip
+pip-log.txt
+pip-delete-this-directory.txt
+*.install
+install_manifest.txt
+
+# Windows
+$RECYCLE.BIN/
+*.lnk
+*.stackdump
+
+# Linux
+.directory
+.fuse_hidden*
+
+# Cursor / editor extras
+.cursor/
+*.code-workspace
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+Sessionx.vim
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+.\#*
+*.elc
+auto-save-list
+tramp
+
+# Hypothesis / testing
+.hypothesis/
+.coverage
+coverage.xml
+*.coveragerc
+
+# Local data / large or generated (uncomment if needed)
+# *.obj
+# *.ply
+# *.stl
+# figures/
+# outputs/
+# results/
