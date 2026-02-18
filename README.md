@@ -1,5 +1,5 @@
 # Laplacian Operators on Triangle Meshes
-
+![Sphere irregular — smoothing evolution (side-by-side)](figures/10_Final/sphere_irregular_smooth_evolution_sidebyside.gif)
 A Python project that implements **discrete Laplacians** (uniform, graph, and cotangent) on triangle meshes, with smoothing experiments, mean curvature computation, and visualization (Polyscope, matplotlib, GIFs).
 
 ## Requirements
